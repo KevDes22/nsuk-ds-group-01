@@ -9,7 +9,7 @@
 
 | | |
 |---|---|
-| **Group** | Group ___ |
+| **Group** | Group 01 |
 | **Live app** | *(optional: paste your Streamlit Community Cloud link)* |
 | **Report** | [`report/GROUP_REPORT.md`](report/GROUP_REPORT.md) |
 
