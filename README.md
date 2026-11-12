@@ -15,7 +15,7 @@
 
 | Member | GitHub username | Role | Parts |
 |---|---|---|---|
-| | @ | Coordinator + Data lead | Parts 1–2 |
+| Kevin Destiny Linus| @kevdes22 | Coordinator + Data lead | Parts 1–2 |
 | | @ | Visualisation lead | Parts 3 and 7 |
 | | @ | Statistics lead | Parts 4–5 |
 | | @ | Machine-learning lead | Part 6 |
