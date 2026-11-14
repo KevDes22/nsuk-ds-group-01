@@ -11,11 +11,9 @@ cleaning code for LGAs, Yes/No and months; wrote report section 2; fixed the mer
 | 1 | Kevin Destiny Linus| @kevdes22 | Coordinator + Data lead (Parts 1–2) | |
 | 2 | Idan Sesugh Stephen | @idanstephen | Visualisation lead (Parts 3 and 7) | |
 <<<<<<< HEAD
-| 3 | | @oyinjeje | Statistics lead (Parts 4–5) | |
-=======
 | 3 | Ikyernum Victor | @vik_daguru | Statistics lead (Parts 4–5) | |
 >>>>>>> a81f6d6a1e9c76dad3c80cf41dd903582e35673f
-| 4 | | @ | Machine-learning lead (Part 6) | |
+| 4 | Sangogade Oyinkansola Esther| @oyinjeje | Machine-learning lead (Part 6) | |
 | 5 | | @ | App lead (Parts 8–9) | |
 
 ## Meeting log *(optional, but helps if there are disagreements later)*
