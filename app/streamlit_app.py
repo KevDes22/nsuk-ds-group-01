@@ -36,17 +36,17 @@ st.set_page_config(page_title="Yam Yield Predictor", page_icon="🍠", layout="w
 # ============================================================================
 # TODO 1: Type your group name between the quotes, e.g. "Group 03"
 # ============================================================================
-GROUP_NAME = "Group ___"
+GROUP_NAME = "Group 01"
 
 # ============================================================================
 # TODO 2: Type the names of the five members of your group
 # ============================================================================
 TEAM = [
-    "Member 1 name (Data lead)",
-    "Member 2 name (Visualisation lead)",
-    "Member 3 name (Statistics lead)",
-    "Member 4 name (ML lead)",
-    "Member 5 name (App lead)",
+    "Kevin Destiny Linus (Data lead)",
+    "Idan Sesugh Stephen (Visualisation lead)",
+    "Ikyernum Victor (Statistics lead)",
+    "Sangogade Oyinkansola Esther (ML lead)",
+    "Benjamin Zekpo (App lead)",
 ]
 
 

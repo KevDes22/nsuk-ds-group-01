@@ -1,6 +1,6 @@
 # 👥 Contributions
 
-**Group:** Group ___
+**Group:** Group 01
 
 **Step 5 (first commit):** each member fills in **only their own row** (Name, GitHub username, Role) and pushes it.
 **Before submission:** each member updates their **What I did** column. Be specific, e.g. *"Parts 1–2: wrote the
@@ -12,7 +12,7 @@ cleaning code for LGAs, Yes/No and months; wrote report section 2; fixed the mer
 | 2 | Idan Sesugh Stephen | @idanstephen | Visualisation lead (Parts 3 and 7) | |
 | 3 | Ikyernum Victor | @vik_daguru | Statistics lead (Parts 4–5) | |
 | 4 | Sangogade Oyinkansola Esther| @oyinjeje | Machine-learning lead (Part 6) | |
-| 5 | | @ | App lead (Parts 8–9) | |
+| 5 | Benjamin Zekpo | @zekpoJNR | App lead (Parts 8–9) | |
 
 ## Meeting log *(optional, but helps if there are disagreements later)*
 | Date | Who attended | What we agreed |

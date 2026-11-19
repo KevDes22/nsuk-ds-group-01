@@ -2,7 +2,7 @@
 
 *Complete this honestly. Using AI is allowed in this project, but it must be declared. Delete the italic guidance when you're done.*
 
-**Group:** Group ___
+**Group:** Group 01
 
 ## 1. Tools used
 *Tick all that apply and add the version if you know it.*

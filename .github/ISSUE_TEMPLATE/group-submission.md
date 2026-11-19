@@ -17,11 +17,11 @@ assignees: ''
 ### Members
 | Name | GitHub username | Role |
 |---|---|---|
-| | @ | Coordinator + Data lead |
-| | @ | Visualisation lead |
-| | @ | Statistics lead |
-| | @ | ML lead |
-| | @ | App lead |
+| Kevin Destiny Linus | @kevdes22 | Coordinator + Data lead |
+| Idan Sesugh Stephen | @idanstephen | Visualisation lead |
+| Ikyernum Victor | @vik_daguru | Statistics lead |
+| Sangogade Oyinkansola Esther | @oyinjeje | ML lead |
+| Benjamin Zekpo | @zekpoJNR | App lead |
 
 ### Checklist (tick each box: replace `[ ]` with `[x]`)
 - [ ] The notebook runs with **Restart → Run All** without errors, and every check shows ✅
