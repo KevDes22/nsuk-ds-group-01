@@ -17,9 +17,9 @@
 |---|---|---|---|
 | Kevin Destiny Linus| @kevdes22 | Coordinator + Data lead | Parts 1–2 |
 | Idan Sesugh Stephen| @idanstephen | Visualisation lead | Parts 3 and 7 |
-| | @ | Statistics lead | Parts 4–5 |
-| | @ | Machine-learning lead | Part 6 |
-| | @ | App lead | Parts 8–9 |
+| Ikyernum Victor | @vik_daguru | Statistics lead | Parts 4–5 |
+|Sangogade Oyinkansola Esther | @oyinjeje | Machine-learning lead | Part 6 |
+| Benjamin Zekpo | @zekpoJNR | App lead | Parts 8–9 |
 
 **Our key findings (3–5 bullet points with numbers):**
 - …

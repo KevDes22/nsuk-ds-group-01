@@ -139,14 +139,14 @@ def build():
     """))
     add(todo(
         starter='''
-        GROUP_NAME = "Group ____"          # e.g. "Group 03"
+        GROUP_NAME = "Group 01"          # e.g. "Group 03"
 
         TEAM = {
-            "Member 1 (Data lead)": "____",
-            "Member 2 (Visualisation lead)": "____",
-            "Member 3 (Statistics lead)": "____",
-            "Member 4 (ML lead)": "____",
-            "Member 5 (App lead)": "____",
+        "Member 1 (Data lead)": "Kevin Destiny Linus",
+        "Member 2 (Visualisation lead)": "Idan Sesugh Stephen",
+        "Member 3 (Statistics lead)": "Ikyernum Victor",
+        "Member 4 (ML lead)": "Sangogade Oyinkansola Esther",
+        "Member 5 (App lead)": "Benjamin Zekpo",
         }
         ''',
         answer='''
