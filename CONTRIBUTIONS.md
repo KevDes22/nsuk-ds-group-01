@@ -12,7 +12,7 @@ cleaning code for LGAs, Yes/No and months; wrote report section 2; fixed the mer
 | 2 | Idan Sesugh Stephen | @idanstephen | Visualisation lead (Parts 3 and 7) | |
 | 3 | Ikyernum Victor | @vik_daguru | Statistics lead (Parts 4–5) | |
 | 4 | Sangogade Oyinkansola Esther| @oyinjeje | Machine-learning lead (Part 6) | |
-| 5 | Benjamin Zekpo , Jemimah Agbinone | @zekpoJNR , @JemimahJames| App lead (Parts 8–9) | |
+| 5 | Benjamin Zekpo , Jemimah Agbinone, Jennifer Imogie | @zekpoJNR , @JemimahJames , @Jennifer-Imogie| App lead (Parts 8–9) | |
 
 ## Meeting log *(optional, but helps if there are disagreements later)*
 | Date | Who attended | What we agreed |
