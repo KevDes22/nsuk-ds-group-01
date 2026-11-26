@@ -20,7 +20,7 @@ NYS-01504,2023,Toto,,Male,Tertiary,6.0,27.0,1.37,Own saved setts,233.0,6680.0,Fe
 NYS-01709,2023,Nasarawa Eggon,41.0,Male,Primary,6.0,15.0,1.23,Local market,334.0,11060.0,February,Yes,298.0,No,Yes,2,Sandy loam,1075.9,Low,4.0,Yes,No,23.2,5710.0,9459000.0,14.77
 NYS-02205,2023,Kokona,47.0,Male,No formal education,9.0,23.0,1.65,Local market,287.0,10720.0,February,No,100.7,Yes,No,3,Sandy loam,1322.0,Low,0.0,No,No,9.8,5930.0,9258000.0,9.9
 NYS-01506,2022,Keana,63.0,Female,No formal education,9.0,41.0,0.51,Own saved setts,383.0,9340.0,April,No,0.0,Yes,Yes,3,Loam,1516.0,Moderate,0.0,No,No,,3220.0,1398000.0,6.54
-NYS-01771,2023,Akwaga,59.0,Female,Tertiary,5.0,33.0,1.58,Own saved setts,405.0,12300.0,January,No,43.9,No,No,2,Loam,1357.8,Moderate,0.0,No,No,8.5,5280.0,9311000.0,11.05
+NYS-01771,2023,Akwanga,59.0,Female,Tertiary,5.0,33.0,1.58,Own saved setts,405.0,12300.0,January,No,43.9,No,No,2,Loam,1357.8,Moderate,0.0,No,No,8.5,5280.0,9311000.0,11.05
 NYS-02113,2021,Awe,51.0,Male,Primary,9.0,35.0,0.49,Certified seed yam,265.0,12790.0,April,No,0.0,No,,2,Loam,1581.6,High,2.0,No,No,14.8,3820.0,2341000.0,7.54
 NYS-02204,2025,Doma,37.0,Male,Secondary,6.0,21.0,1.06,Local market,353.0,7770.0,March,No,211.7,No,No,2,Sandy loam,1344.3,Moderate,1.0,No,No,3.9,5670.0,4748000.0,10.62
 NYS-01857,2025,Toto,52.0,Male,No formal education,7.0,28.0,1.07,Local market,207.0,7920.0,March,No,136.1,Yes,No,3,Sandy,,Low,0.0,No,No,22.4,4050.0,4503000.0,9.02
@@ -120,7 +120,7 @@ NYS-00564,2023,Keffi,59.0,Male,Primary,4.0,39.0,0.39,ADP / NGO,377.0,10530.0,Jan
 NYS-00407,2024,Nasarawa Eggon,47.0,Male,Secondary,9.0,31.0,1.02,ADP / NGO,285.0,11000.0,January,No,0.0,,No,1,Clay loam,1381.2,Moderate,2.0,No,No,13.0,2540.0,2839000.0,5.28
 NYS-00152,2024,Nasarawa Eggon,63.0,Female,Secondary,,42.0,0.87,ADP / NGO,335.0,10850.0,February,Yes,91.8,Yes,Yes,3,Loam,850.5,Moderate,1.0,,No,6.9,4170.0,3800000.0,8.78
 NYS-01323,2024,Lafia,33.0,Male,Primary,4.0,4.0,2.32,ADP / NGO,284.0,7970.0,February,No,114.6,No,No,4,Sandy loam,1501.4,Moderate,1.0,No,Yes,6.0,5010.0,14604000.0,10.28
-NYS-00199,2022,Akwaga,51.0,Female,Secondary,13.0,35.0,1.53,ADP / NGO,254.0,12070.0,December,No,79.4,No,No,3,Sandy loam,1398.5,Low,0.0,No,No,29.6,5680.0,10090000.0,12.66
+NYS-00199,2022,Akwanga,51.0,Female,Secondary,13.0,35.0,1.53,ADP / NGO,254.0,12070.0,December,No,79.4,No,No,3,Sandy loam,1398.5,Low,0.0,No,No,29.6,5680.0,10090000.0,12.66
 NYS-01461,2025,Obi,39.0,Male,Primary,8.0,23.0,3.67,Local market,218.0,10910.0,March,Yes,109.1,No,No,2,Sandy loam,1388.0,Moderate,3.0,Yes,No,,3290.0,12987000.0,7.82
 NYS-01401,2025,Awe,31.0,Male,No formal education,5.0,9.0,1.21,ADP / NGO,312.0,10180.0,March,No,360.1,Yes,No,2,Clay loam,1429.5,Low,3.0,Yes,Yes,5.5,8870.0,10779000.0,15.74
 NYS-00661,2025,Akwanga,44.0,Female,No formal education,5.0,22.0,1.66,Own saved setts,216.0,13420.0,March,No,46.3,No,Yes,2,Loam,1399.7,Absent,0.0,No,No,5.7,4160.0,7751000.0,8.59
@@ -652,7 +652,7 @@ NYS-01303,2021,Doma,38.0,Male,No formal education,8.0,10.0,1.27,Own saved setts,
 NYS-00689,2023,Nasarawa Eggon,,Male,Primary,5.0,22.0,0.83,Own saved setts,236.0,8680.0,December,Yes,224.1,No,No,2,Sandy loam,1391.2,High,0.0,No,No,4.0,4370.0,3063000.0,7.73
 NYS-02231,2022,Kokona,57.0,Male,Primary,11.0,35.0,1.04,Own saved setts,136.0,11210.0,January,No,167.1,Yes,Yes,2,Sandy loam,1089.6,Moderate,1.0,No,No,11.1,2620.0,3302000.0,5.66
 NYS-01634,2023,Doma,75.0,Male,Secondary,4.0,55.0,5.56,Own saved setts,300.0,10110.0,February,Yes,187.1,Yes,Yes,2,Sandy loam,1355.9,Absent,3.0,Yes,Yes,5.4,7440.0,52443000.0,17.55
-NYS-00350,2025,Akwaga,50.0,Female,No formal education,7.0,34.0,2.44,ADP / NGO,280.0,9080.0,February,No,149.9,No,Yes,3,Loam,1628.0,Low,0.0,Yes,No,10.2,6460.0,15865000.0,12.54
+NYS-00350,2025,Akwanga,50.0,Female,No formal education,7.0,34.0,2.44,ADP / NGO,280.0,9080.0,February,No,149.9,No,Yes,3,Loam,1628.0,Low,0.0,Yes,No,10.2,6460.0,15865000.0,12.54
 NYS-01207,2022,Lafia,41.0,Female,No formal education,7.0,22.0,1.31,Local market,209.0,10480.0,February,Yes,0.0,No,No,4,Sandy,1426.3,High,0.0,Yes,No,5.2,3890.0,6119000.0,8.09
 NYS-02300,2023,Keana,48.0,Male,No formal education,9.0,23.0,1.07,Local market,253.0,10230.0,February,Yes,130.6,Yes,Yes,1,Sandy,1107.2,Low,,Yes,Yes,18.9,4600.0,4826000.0,8.64
 NYS-02081,2022,Keana,32.0,Female,Tertiary,11.0,6.0,1.12,Local market,279.0,12130.0,March,Yes,0.0,No,No,2,Sandy loam,1265.4,Absent,,No,No,0.9,6120.0,6468000.0,12.2
@@ -668,7 +668,7 @@ NYS-01189,2024,Obi,35.0,Male,Primary,7.0,11.0,0.78,Own saved setts,294.0,6010.0,
 NYS-00027,2025,Nasarawa Eggon,56.0,Female,Primary,3.0,37.0,0.91,Own saved setts,293.0,12940.0,January,Yes,123.2,Yes,No,3,Clay loam,991.3,Moderate,0.0,No,No,52.1,4590.0,4931000.0,9.32
 NYS-00545,2022,Awe,36.0,Female,Secondary,7.0,8.0,0.77,Certified seed yam,373.0,13130.0,February,No,248.4,Yes,Yes,2,Loam,1497.1,High,0.0,No,No,14.1,3720.0,3760000.0,9.44
 NYS-00671,2023,Awe,52.0,Male,No formal education,4.0,27.0,0.47,Local market,309.0,11100.0,January,No,157.6,Yes,No,2,Clay loam,1140.8,Low,0.0,No,No,6.4,5850.0,3067000.0,12.88
-NYS-01435,2023,Akwaga,52.0,Male,Primary,5.0,27.0,0.37,Own saved setts,243.0,8730.0,March,Yes,0.0,No,,1,Sandy,1328.7,Absent,1.0,Yes,No,6.1,4800.0,2472000.0,10.35
+NYS-01435,2023,Akwanga,52.0,Male,Primary,5.0,27.0,0.37,Own saved setts,243.0,8730.0,March,Yes,0.0,No,,1,Sandy,1328.7,Absent,1.0,Yes,No,6.1,4800.0,2472000.0,10.35
 NYS-01883,2024,Wamba,41.0,Male,Secondary,8.0,13.0,0.68,Local market,212.0,9950.0,February,Yes,150.7,Yes,No,1,Sandy,1494.7,Absent,1.0,No,No,6.1,6400.0,4815000.0,12.39
 NYS-00476,2022,Karu,45.0,Female,Primary,5.0,27.0,0.87,Own saved setts,,12880.0,March,No,217.2,Yes,No,3,Sandy loam,1463.4,Low,0.0,Yes,Yes,14.9,5370.0,4484000.0,10.11
 NYS-01717,2024,Obi,52.0,Female,Tertiary,6.0,35.0,0.79,Own saved setts,286.0,10460.0,April,No,140.4,No,No,4,,1252.1,High,1.0,No,No,13.4,2600.0,1870000.0,4.27
@@ -762,7 +762,7 @@ NYS-00467,2021,Wamba,51.0,Male,Tertiary,4.0,30.0,1.5,Local market,345.0,11380.0,
 NYS-00427,2021,Toto,47.0,Male,No formal education,4.0,31.0,1.39,Local market,211.0,11640.0,March,Yes,50.0,No,No,1,Clay loam,1512.8,High,1.0,No,Yes,6.2,3260.0,3511000.0,5.57
 NYS-00060,2022,Toto,31.0,Male,Secondary,8.0,6.0,3.5,Local market,229.0,11150.0,January,Yes,301.8,No,No,2,Loam,1137.2,Absent,1.0,No,Yes,7.4,7160.0,25817000.0,13.25
 NYS-01284,2022,Obi,41.0,Male,No formal education,7.0,24.0,0.53,ADP / NGO,307.0,8240.0,February,Yes,111.3,Yes,No,2,Clay loam,1558.9,Low,1.0,No,No,7.2,5010.0,3723000.0,11.57
-NYS-02100,2025,Akwaga,27.0,Male,Primary,7.0,1.0,1.56,Certified seed yam,378.0,9320.0,January,No,247.1,No,No,3,Sandy,1253.9,Low,1.0,No,No,3.9,6000.0,11077000.0,14.34
+NYS-02100,2025,Akwanga,27.0,Male,Primary,7.0,1.0,1.56,Certified seed yam,378.0,9320.0,January,No,247.1,No,No,3,Sandy,1253.9,Low,1.0,No,No,3.9,6000.0,11077000.0,14.34
 NYS-00806,2023,Kokona,43.0,Female,Secondary,8.0,17.0,0.52,Certified seed yam,358.0,9570.0,March,No,92.8,No,No,3,Sandy loam,,Low,0.0,No,No,14.6,4980.0,3197000.0,11.94
 NYS-01421,2021,Lafia,62.0,Female,Secondary,13.0,46.0,0.91,Own saved setts,295.0,8780.0,January,Yes,305.6,Yes,No,2,Sandy loam,1489.1,Low,2.0,Yes,Yes,3.5,6780.0,4581000.0,12.6
 NYS-01181,2024,Akwanga,37.0,Female,Secondary,12.0,17.0,1.21,Own saved setts,,14120.0,January,No,137.1,No,Yes,2,Loam,1308.1,Absent,1.0,No,No,10.4,5530.0,6615000.0,10.82
@@ -981,7 +981,7 @@ NYS-02031,2023,Keffi,45.0,Male,Secondary,6.0,21.0,0.86,Local market,252.0,9200.0
 NYS-02143,2025,Toto,44.0,Female,Tertiary,5.0,19.0,1.71,Certified seed yam,290.0,9980.0,December,No,258.9,No,No,2,Sandy loam,1163.5,Absent,0.0,No,No,32.8,6960.0,17223000.0,16.29
 NYS-01707,2024,Kokona,33.0,Male,No formal education,5.0,7.0,1.79,Own saved setts,233.0,8780.0,March,No,141.1,No,Yes,2,Sandy loam,1100.3,Low,0.0,No,Yes,5.8,2680.0,6049000.0,5.89
 NYS-01528,2023,Doma,,Male,Secondary,8.0,14.0,0.7,Local market,166.0,8480.0,December,Yes,137.0,No,Yes,3,,1494.5,Low,3.0,Yes,No,9.8,7000.0,3781000.0,11.73
-NYS-01588,2024,Akwaga,47.0,Male,Secondary,11.0,31.0,1.06,Own saved setts,274.0,13130.0,December,No,120.0,Yes,Yes,3,Loam,1044.8,Absent,2.0,Yes,Yes,15.7,5180.0,7356000.0,11.7
+NYS-01588,2024,Akwanga,47.0,Male,Secondary,11.0,31.0,1.06,Own saved setts,274.0,13130.0,December,No,120.0,Yes,Yes,3,Loam,1044.8,Absent,2.0,Yes,Yes,15.7,5180.0,7356000.0,11.7
 NYS-01682,2025,Doma,61.0,Female,Primary,5.0,40.0,1.73,ADP / NGO,252.0,7460.0,February,No,175.7,No,Yes,2,Sandy loam,1194.6,High,1.0,No,No,30.0,5810.0,10413000.0,11.58
 NYS-00315,2022,Toto,30.0,Male,Tertiary,3.0,7.0,1.75,ADP / NGO,238.0,9240.0,March,No,158.5,Yes,Yes,1,Sandy,1523.3,Moderate,2.0,No,No,9.7,3900.0,6115000.0,7.83
 NYS-01512,2025,Obi,39.0,Female,Secondary,8.0,16.0,0.84,Local market,290.0,10840.0,April,No,0.0,Yes,No,2,Loam,1053.3,Moderate,0.0,No,No,14.6,2540.0,2012000.0,5.45
@@ -1040,7 +1040,7 @@ NYS-00266,2024,Kokona,53.0,Female,Secondary,8.0,25.0,0.43,Local market,302.0,943
 NYS-00953,2021,Obi,36.0,Male,Primary,9.0,17.0,0.81,Own saved setts,,8970.0,March,Yes,14.6,No,No,1,Sandy,1160.7,Moderate,3.0,No,No,9.5,1570.0,1380000.0,3.25
 NYS-00129,2021,Awe,40.0,Male,Secondary,6.0,21.0,0.61,Certified seed yam,411.0,9820.0,January,Yes,80.8,No,Yes,3,Sandy loam,1259.0,High,2.0,No,No,23.2,7430.0,4483000.0,12.55
 NYS-01748,2024,Wamba,54.0,Male,Primary,9.0,33.0,0.55,Own saved setts,220.0,11300.0,December,Yes,0.0,Yes,Yes,3,Sandy loam,1486.6,High,2.0,No,No,3.2,5600.0,3257000.0,10.93
-NYS-00200,2023,Akwaga,36.0,Male,No formal education,6.0,17.0,1.0,Own saved setts,389.0,10710.0,December,No,98.8,Yes,Yes,3,Sandy loam,1623.3,Low,2.0,No,No,,5820.0,6491000.0,11.98
+NYS-00200,2023,Akwanga,36.0,Male,No formal education,6.0,17.0,1.0,Own saved setts,389.0,10710.0,December,No,98.8,Yes,Yes,3,Sandy loam,1623.3,Low,2.0,No,No,,5820.0,6491000.0,11.98
 NYS-00374,2025,Toto,32.0,Male,Secondary,11.0,15.0,0.96,ADP / NGO,326.0,9610.0,March,No,245.8,No,Yes,4,Sandy loam,1492.6,Low,0.0,No,No,14.4,5030.0,6068000.0,11.91
 NYS-00835,2025,Doma,73.0,Male,Tertiary,3.0,56.0,1.76,Own saved setts,258.0,9710.0,March,No,60.4,Yes,No,2,Sandy loam,1456.5,Low,3.0,No,No,7.0,3880.0,6134000.0,8.57
 NYS-01938,2025,Kokona,,Male,Secondary,5.0,18.0,0.56,ADP / NGO,353.0,6580.0,February,Yes,127.7,Yes,Yes,3,Clay loam,1246.7,High,0.0,No,No,5.9,3320.0,2180000.0,7.16
@@ -1054,7 +1054,7 @@ NYS-00485,2024,Awe,54.0,Female,No formal education,6.0,38.0,2.13,Local market,38
 NYS-01878,2023,Doma,44.0,Male,No formal education,6.0,26.0,3.49,Local market,365.0,10400.0,January,Yes,102.5,No,Yes,4,Sandy,1318.0,Low,0.0,Yes,No,19.9,6470.0,18613000.0,11.04
 NYS-00570,2023,Akwanga,44.0,Male,Primary,9.0,21.0,1.83,Local market,248.0,10590.0,February,No,109.4,No,No,2,Sandy loam,1119.4,Low,0.0,Yes,No,,5490.0,11263000.0,11.26
 NYS-01021,2024,Keana,42.0,Male,Tertiary,13.0,14.0,0.32,Local market,237.0,9640.0,February,No,143.0,No,No,3,Clay loam,847.4,Low,3.0,Yes,,17.3,5800.0,1573000.0,10.11
-NYS-00620,2022,Akwaga,35.0,Male,Tertiary,6.0,15.0,1.98,Certified seed yam,250.0,9170.0,February,Yes,0.0,No,No,1,Loam,1206.4,Moderate,1.0,No,No,8.3,5330.0,14604000.0,12.08
+NYS-00620,2022,Akwanga,35.0,Male,Tertiary,6.0,15.0,1.98,Certified seed yam,250.0,9170.0,February,Yes,0.0,No,No,1,Loam,1206.4,Moderate,1.0,No,No,8.3,5330.0,14604000.0,12.08
 NYS-00390,2022,Nasarawa Eggon,38.0,Male,Secondary,8.0,11.0,1.65,Own saved setts,259.0,9910.0,January,No,131.0,No,Yes,3,Loam,1339.7,Moderate,0.0,No,,6.5,4050.0,7794000.0,8.42
 NYS-00959,2021,Karu,60.0,Female,Secondary,3.0,44.0,0.95,Local market,326.0,11110.0,March,Yes,134.7,No,Yes,3,Sandy,899.3,Low,0.0,No,No,2.5,4460.0,4149000.0,10.02
 NYS-01185,2023,Lafia,54.0,Female,Secondary,5.0,30.0,1.64,Own saved setts,242.0,11120.0,April,Yes,0.0,Yes,No,3,Sandy loam,1490.6,Low,1.0,No,No,10.6,4810.0,8547000.0,8.76
@@ -1251,7 +1251,7 @@ NYS-01780,2025,Nasarawa Eggon,44.0,Male,Secondary,13.0,16.0,2.4,Own saved setts,
 NYS-00609,2022,Doma,24.0,Female,Secondary,9.0,1.0,0.6,Own saved setts,268.0,8420.0,February,,0.0,No,Yes,4,Sandy,1394.3,Absent,1.0,No,No,16.0,2930.0,2344000.0,7.56
 NYS-02099,2021,Kokona,40.0,Male,No formal education,8.0,11.0,0.51,Local market,207.0,10080.0,January,Yes,211.9,Yes,No,1,,1351.6,Moderate,8.0,Yes,Yes,1.7,5360.0,3111000.0,11.26
 NYS-01855,2021,Keffi,73.0,Male,Tertiary,6.0,56.0,2.35,Own saved setts,281.0,10230.0,February,Yes,91.3,No,No,3,Clay loam,,Absent,1.0,Yes,No,,5130.0,12745000.0,10.63
-NYS-01034,2022,Akwaga,34.0,Male,Primary,7.0,16.0,0.72,Own saved setts,353.0,6410.0,December,No,47.8,No,No,2,Loam,1437.5,Absent,0.0,No,No,4.1,6480.0,4569000.0,10.57
+NYS-01034,2022,Akwanga,34.0,Male,Primary,7.0,16.0,0.72,Own saved setts,353.0,6410.0,December,No,47.8,No,No,2,Loam,1437.5,Absent,0.0,No,No,4.1,6480.0,4569000.0,10.57
 NYS-00867,2024,Keana,48.0,Male,Secondary,10.0,27.0,2.56,Own saved setts,290.0,10410.0,January,No,0.0,Yes,No,3,Clay loam,1326.7,Absent,3.0,Yes,No,15.4,7320.0,18532000.0,11.9
 NYS-02106,2022,Karu,47.0,Male,No formal education,11.0,25.0,1.84,Own saved setts,,8210.0,December,Yes,50.0,No,Yes,3,Clay loam,1392.1,Absent,1.0,No,Yes,13.9,2570.0,5033000.0,6.01
 NYS-01548,2022,Wamba,39.0,Male,Secondary,7.0,22.0,1.34,Local market,310.0,12020.0,January,Yes,156.4,Yes,Yes,2,Sandy loam,1281.9,Absent,2.0,No,Yes,11.7,5800.0,7592000.0,11.56
@@ -1539,7 +1539,7 @@ NYS-00964,2021,Doma,41.0,Male,Primary,6.0,25.0,2.98,Own saved setts,330.0,9500.0
 NYS-01888,2021,Awe,44.0,Male,No formal education,4.0,26.0,1.41,Own saved setts,245.0,6840.0,March,Yes,0.0,No,Yes,1,Sandy loam,933.7,Moderate,0.0,No,No,43.8,1250.0,2158000.0,3.41
 NYS-01906,2022,Toto,49.0,Male,Tertiary,5.0,29.0,1.93,ADP / NGO,195.0,10560.0,January,Yes,27.5,No,Yes,3,Loam,,Low,4.0,Yes,No,3.0,7400.0,17710000.0,17.27
 NYS-02194,2022,Kokona,35.0,Male,No formal education,2.0,13.0,0.43,Certified seed yam,257.0,11090.0,December,Yes,89.5,No,No,2,Sandy loam,1107.4,Low,2.0,Yes,Yes,16.8,4870.0,2102000.0,10.62
-NYS-01088,2023,Akwaga,52.0,Female,Secondary,5.0,27.0,0.89,Own saved setts,208.0,9280.0,December,No,159.7,No,No,2,Loam,1103.5,Low,0.0,No,No,29.5,8000.0,8577000.0,14.65
+NYS-01088,2023,Akwanga,52.0,Female,Secondary,5.0,27.0,0.89,Own saved setts,208.0,9280.0,December,No,159.7,No,No,2,Loam,1103.5,Low,0.0,No,No,29.5,8000.0,8577000.0,14.65
 NYS-00029,2025,Doma,39.0,Female,No formal education,3.0,12.0,0.68,Own saved setts,290.0,11780.0,January,No,32.6,No,No,3,Clay loam,1231.4,Low,0.0,No,No,0.8,3900.0,3655000.0,7.96
 NYS-00887,2024,Kokona,49.0,Male,No formal education,3.0,30.0,1.13,ADP / NGO,239.0,9920.0,February,No,214.9,No,Yes,2,Sandy,1415.5,High,2.0,No,Yes,4.0,2230.0,2815000.0,4.09
 NYS-01389,2024,Toto,63.0,Male,Primary,8.0,37.0,0.36,Own saved setts,261.0,10080.0,March,No,50.0,No,Yes,3,Loam,1028.1,Absent,0.0,No,Yes,12.4,5620.0,1767000.0,10.72
@@ -1618,7 +1618,7 @@ NYS-01979,2024,Keffi,18.0,Female,Primary,4.0,2.0,0.61,Own saved setts,282.0,7250
 NYS-00366,2023,Akwanga,46.0,Male,Secondary,4.0,25.0,0.97,Local market,303.0,10320.0,January,No,0.0,No,Yes,3,Loam,,Low,3.0,Yes,No,17.4,5680.0,7095000.0,11.05
 NYS-00342,2021,Keana,39.0,Male,Secondary,4.0,10.0,4.09,Own saved setts,155.0,15900.0,April,Yes,215.9,No,No,2,Loam,899.5,Low,1.0,No,No,15.3,2770.0,11229000.0,5.31
 NYS-01419,2024,Doma,49.0,Male,Secondary,8.0,32.0,0.55,Local market,,9240.0,March,Yes,156.3,No,No,4,Clay loam,1045.2,Absent,0.0,No,No,3.8,6450.0,3215000.0,13.05
-NYS-00459,2021,Akwaga,42.0,Male,Primary,9.0,20.0,0.38,ADP / NGO,263.0,9290.0,April,No,83.2,No,Yes,1,Clay loam,1071.1,Low,1.0,No,No,22.8,4010.0,1785000.0,8.86
+NYS-00459,2021,Akwanga,42.0,Male,Primary,9.0,20.0,0.38,ADP / NGO,263.0,9290.0,April,No,83.2,No,Yes,1,Clay loam,1071.1,Low,1.0,No,No,22.8,4010.0,1785000.0,8.86
 NYS-01139,2023,Wamba,47.0,Male,No formal education,14.0,19.0,2.3,Certified seed yam,335.0,10240.0,April,Yes,0.0,No,Yes,3,Loam,1319.4,Absent,5.0,Yes,No,8.6,7220.0,21606000.0,15.58
 NYS-00277,2022,Lafia,46.0,Male,Secondary,10.0,17.0,3.87,ADP / NGO,204.0,11930.0,January,No,171.2,Yes,No,4,Sandy loam,1588.1,Moderate,4.0,Yes,Yes,23.8,5080.0,22196000.0,10.28
 NYS-02027,2021,Keffi,37.0,Female,Primary,9.0,20.0,3.64,Local market,236.0,9540.0,March,Yes,109.0,Yes,No,2,Loam,1563.8,Low,0.0,No,No,11.6,3770.0,14567000.0,8.99
@@ -1695,7 +1695,7 @@ NYS-01468,2022,Lafia,44.0,Female,Primary,4.0,24.0,1.98,Own saved setts,214.0,821
 NYS-00452,2021,Akwanga,46.0,Female,Secondary,7.0,26.0,0.91,Local market,212.0,13090.0,January,No,20.0,No,No,3,Sandy loam,1310.4,Low,0.0,No,No,4.2,5300.0,4731000.0,10.31
 NYS-01318,2021,Obi,48.0,Male,Primary,6.0,27.0,1.42,Own saved setts,239.0,10460.0,February,No,191.5,Yes,Yes,3,Sandy,1320.6,Absent,0.0,No,No,5.9,3630.0,4396000.0,7.77
 NYS-00692,2023,Doma,61.0,Male,Primary,8.0,33.0,0.8,Own saved setts,193.0,5000.0,March,No,139.2,No,No,2,Sandy,1151.3,High,0.0,No,No,14.4,1920.0,1967000.0,4.48
-NYS-00914,2022,Akwaga,42.0,Male,Secondary,7.0,21.0,0.64,Local market,268.0,10410.0,March,Yes,163.6,No,Yes,2,Sandy,1179.9,Absent,0.0,Yes,No,19.9,4870.0,4338000.0,12.08
+NYS-00914,2022,Akwanga,42.0,Male,Secondary,7.0,21.0,0.64,Local market,268.0,10410.0,March,Yes,163.6,No,Yes,2,Sandy,1179.9,Absent,0.0,Yes,No,19.9,4870.0,4338000.0,12.08
 NYS-02268,2022,Kokona,38.0,Male,No formal education,6.0,21.0,0.74,Own saved setts,283.0,13000.0,February,Yes,147.5,No,Yes,2,Sandy loam,1016.8,Low,2.0,No,No,1.6,3530.0,3025000.0,8.34
 NYS-02304,2025,Doma,38.0,Male,Primary,9.0,22.0,1.91,Own saved setts,304.0,9770.0,January,Yes,38.9,No,Yes,4,Sandy loam,1414.5,High,1.0,No,No,11.4,2640.0,7127000.0,6.89
 NYS-02026,2022,Lafia,47.0,Male,Primary,2.0,28.0,1.3,Local market,302.0,8010.0,March,Yes,0.0,No,No,2,Sandy loam,1146.6,Absent,1.0,Yes,No,7.5,5320.0,7820000.0,12.25
@@ -1708,7 +1708,7 @@ NYS-01985,2021,Wamba,34.0,Male,Secondary,8.0,13.0,1.91,Local market,363.0,10050.
 NYS-00954,2022,Toto,53.0,Female,Secondary,7.0,33.0,1.68,Own saved setts,190.0,9780.0,January,No,94.5,Yes,No,4,Sandy loam,1263.7,Moderate,,No,No,11.0,6290.0,11777000.0,12.48
 NYS-01132,2025,Karu,34.0,Female,Secondary,6.0,14.0,0.75,ADP / NGO,328.0,8460.0,January,,0.0,No,No,3,Loam,1550.5,Absent,0.0,No,No,17.2,3300.0,2527000.0,8.6
 NYS-01399,2021,Lafia,56.0,Male,Primary,7.0,27.0,,Own saved setts,295.0,13190.0,February,Yes,135.8,Yes,Yes,2,Clay loam,1137.6,High,1.0,No,No,8.2,3210.0,6361000.0,8.58
-NYS-02398,2023,Akwaga,50.0,Male,Secondary,12.0,21.0,0.74,Own saved setts,321.0,9490.0,March,No,0.0,Yes,Yes,1,Clay loam,1438.0,Moderate,0.0,No,No,22.3,2770.0,1868000.0,5.53
+NYS-02398,2023,Akwanga,50.0,Male,Secondary,12.0,21.0,0.74,Own saved setts,321.0,9490.0,March,No,0.0,Yes,Yes,1,Clay loam,1438.0,Moderate,0.0,No,No,22.3,2770.0,1868000.0,5.53
 NYS-01261,2022,Lafia,40.0,Female,Primary,5.0,15.0,0.47,Certified seed yam,406.0,12210.0,January,,23.8,No,Yes,2,Clay loam,1175.6,Low,0.0,No,No,6.4,4000.0,2554000.0,9.49
 NYS-00335,2023,Lafia,32.0,Male,Primary,6.0,11.0,0.94,Own saved setts,277.0,12410.0,February,Yes,325.2,Yes,Yes,1,Loam,1077.5,Low,1.0,Yes,No,12.8,5410.0,5027000.0,11.09
 NYS-01545,2022,Lafia,49.0,Male,Secondary,7.0,26.0,1.67,Own saved setts,275.0,12950.0,March,Yes,180.0,Yes,Yes,3,Loam,1467.4,Absent,2.0,Yes,Yes,,5280.0,11385000.0,12.43
@@ -1784,7 +1784,7 @@ NYS-01799,2023,Akwanga,39.0,Female,Tertiary,6.0,10.0,0.51,Own saved setts,229.0,
 NYS-00232,2024,Obi,43.0,Female,Secondary,6.0,17.0,1.16,Own saved setts,230.0,9460.0,January,No,60.8,No,Yes,3,Clay loam,1307.0,Low,0.0,No,No,9.8,2060.0,3298000.0,4.6
 NYS-00135,2024,Toto,38.0,Female,Primary,7.0,17.0,0.78,Own saved setts,234.0,8860.0,February,Yes,65.2,Yes,Yes,2,Sandy loam,1204.1,Low,2.0,Yes,Yes,15.8,5840.0,6103000.0,12.87
 NYS-01926,2021,Lafia,23.0,Male,Secondary,6.0,1.0,0.94,Own saved setts,235.0,9240.0,January,Yes,65.8,No,No,3,Clay loam,1048.5,Low,3.0,Yes,No,2.9,4470.0,4285000.0,8.32
-NYS-02150,2022,Akwaga,41.0,Male,Tertiary,4.0,19.0,0.69,ADP / NGO,440.0,10830.0,January,Yes,96.0,Yes,No,1,Sandy loam,1082.7,Moderate,3.0,Yes,No,8.5,5460.0,4668000.0,12.88
+NYS-02150,2022,Akwanga,41.0,Male,Tertiary,4.0,19.0,0.69,ADP / NGO,440.0,10830.0,January,Yes,96.0,Yes,No,1,Sandy loam,1082.7,Moderate,3.0,Yes,No,8.5,5460.0,4668000.0,12.88
 NYS-00231,2023,Awe,52.0,Female,Primary,2.0,30.0,0.97,Local market,216.0,7250.0,April,No,81.1,Yes,Yes,2,Sandy loam,,Absent,1.0,No,No,19.7,4470.0,3617000.0,8.44
 NYS-01674,2025,Akwanga,37.0,Female,Primary,7.0,11.0,1.47,ADP / NGO,206.0,6240.0,December,No,145.9,No,No,2,Clay loam,1132.4,Absent,0.0,No,No,10.1,5750.0,8810000.0,12.05
 NYS-00968,2024,Doma,24.0,Male,Secondary,5.0,1.0,2.39,Own saved setts,282.0,14300.0,February,No,100.7,Yes,No,2,Sandy loam,1479.9,Absent,0.0,No,No,15.3,5740.0,14219000.0,9.73
@@ -1910,7 +1910,7 @@ NYS-01222,2022,Keana,43.0,Female,Primary,7.0,18.0,0.84,Own saved setts,,10830.0,
 NYS-02273,2021,Keana,46.0,Male,Secondary,9.0,27.0,3.05,Local market,149.0,9940.0,March,Yes,33.0,Yes,No,3,Loam,1297.2,Moderate,0.0,No,No,30.7,7620.0,20600000.0,12.57
 NYS-02087,2022,Keana,63.0,Male,No formal education,4.0,46.0,0.79,Own saved setts,280.0,9290.0,February,Yes,59.6,No,Yes,3,Sandy loam,1325.1,Low,0.0,No,No,11.9,4490.0,3857000.0,9.32
 NYS-00584,2025,Keana,41.0,Male,Secondary,6.0,15.0,2.49,Own saved setts,216.0,7830.0,March,Yes,50.0,Yes,Yes,2,Sandy loam,1590.5,Low,,Yes,Yes,7.1,3670.0,9749000.0,7.94
-NYS-01838,2021,Akwaga,48.0,Male,No formal education,10.0,28.0,1.98,Own saved setts,313.0,9640.0,January,No,183.3,No,No,1,Clay loam,1384.9,Low,1.0,Yes,No,1.6,6300.0,11430000.0,10.44
+NYS-01838,2021,Akwanga,48.0,Male,No formal education,10.0,28.0,1.98,Own saved setts,313.0,9640.0,January,No,183.3,No,No,1,Clay loam,1384.9,Low,1.0,Yes,No,1.6,6300.0,11430000.0,10.44
 NYS-02258,2025,Lafia,43.0,Male,Tertiary,10.0,25.0,1.17,Local market,262.0,10500.0,March,Yes,42.3,No,No,3,Clay loam,,Moderate,5.0,Yes,No,24.9,5940.0,6874000.0,12.66
 NYS-01264,2021,Keana,70.0,Female,No formal education,4.0,54.0,0.29,Own saved setts,319.0,11480.0,February,Yes,50.0,Yes,No,1,Clay loam,1163.5,High,3.0,Yes,Yes,14.9,4330.0,1544000.0,9.86
 NYS-01805,2022,Obi,35.0,Male,No formal education,7.0,15.0,0.82,ADP / NGO,,10460.0,March,Yes,63.3,No,No,3,Sandy loam,1382.4,Moderate,1.0,No,No,6.9,4670.0,4687000.0,10.14
@@ -1991,7 +1991,7 @@ NYS-01895,2023,Lafia,33.0,Male,Primary,4.0,16.0,1.28,Local market,318.0,10600.0,
 NYS-01446,2023,Lafia,18.0,Male,No formal education,2.0,1.0,0.64,Own saved setts,255.0,10380.0,March,Yes,126.6,Yes,No,2,Sandy loam,1049.0,Absent,4.0,Yes,Yes,22.0,7540.0,4528000.0,14.51
 NYS-00710,2025,Obi,58.0,Male,Secondary,2.0,41.0,1.43,Own saved setts,247.0,9210.0,April,No,0.0,No,No,3,Loam,1135.3,Low,2.0,No,No,11.8,3160.0,4923000.0,7.9
 NYS-01538,2023,Doma,46.0,Male,Secondary,5.0,18.0,1.16,Certified seed yam,338.0,8520.0,February,Yes,0.0,No,Yes,3,Sandy loam,1103.8,Low,0.0,,No,22.8,4900.0,6257000.0,11.23
-NYS-01282,2021,Akwaga,50.0,Male,Secondary,6.0,22.0,1.99,Own saved setts,315.0,11280.0,February,No,206.7,No,Yes,1,Loam,1060.3,Moderate,4.0,Yes,No,7.0,5050.0,9630000.0,10.31
+NYS-01282,2021,Akwanga,50.0,Male,Secondary,6.0,22.0,1.99,Own saved setts,315.0,11280.0,February,No,206.7,No,Yes,1,Loam,1060.3,Moderate,4.0,Yes,No,7.0,5050.0,9630000.0,10.31
 NYS-01274,2023,Kokona,55.0,Male,Secondary,5.0,32.0,1.53,Certified seed yam,335.0,10340.0,January,No,152.7,Yes,No,1,Sandy loam,1423.3,High,3.0,No,No,5.5,4410.0,8802000.0,9.82
 NYS-00958,2021,Keana,49.0,Male,Primary,5.0,32.0,5.37,ADP / NGO,,10140.0,March,Yes,163.9,Yes,No,3,Sandy loam,987.6,Low,1.0,Yes,Yes,7.1,6900.0,33626000.0,13.18
 NYS-01499,2021,Obi,42.0,Female,No formal education,8.0,18.0,2.64,Local market,326.0,8180.0,March,No,162.4,No,Yes,2,Sandy loam,1265.6,Low,0.0,No,Yes,21.9,4980.0,14434000.0,8.94
@@ -2022,7 +2022,7 @@ NYS-01225,2024,Wamba,57.0,Female,No formal education,10.0,29.0,0.94,Own saved se
 NYS-01490,2021,Awe,31.0,Male,Secondary,8.0,9.0,1.21,Local market,243.0,14530.0,January,Yes,273.3,No,No,3,Sandy loam,1418.0,Moderate,,No,No,10.8,6470.0,7914000.0,11.96
 NYS-02090,2024,Doma,59.0,Female,Primary,9.0,36.0,1.47,ADP / NGO,270.0,7180.0,January,Yes,0.0,No,Yes,2,Sandy loam,1233.8,Absent,0.0,No,No,11.3,4980.0,8250000.0,11.79
 NYS-00422,2025,Keffi,44.0,Female,Tertiary,8.0,15.0,1.89,Own saved setts,403.0,6060.0,March,No,118.8,No,Yes,3,Sandy loam,1108.0,Absent,1.0,No,,4.4,3720.0,7810000.0,7.39
-NYS-00563,2025,Akwaga,47.0,Male,Secondary,6.0,31.0,1.38,Own saved setts,218.0,9700.0,February,Yes,67.1,No,Yes,1,Sandy,1363.7,Absent,3.0,Yes,No,4.5,5490.0,6343000.0,9.62
+NYS-00563,2025,Akwanga,47.0,Male,Secondary,6.0,31.0,1.38,Own saved setts,218.0,9700.0,February,Yes,67.1,No,Yes,1,Sandy,1363.7,Absent,3.0,Yes,No,4.5,5490.0,6343000.0,9.62
 NYS-01570,2021,Lafia,42.0,Female,No formal education,6.0,17.0,1.76,Own saved setts,220.0,13200.0,February,No,189.6,No,No,2,,1583.7,High,0.0,No,No,9.3,3250.0,5754000.0,5.93
 NYS-01657,2023,Kokona,28.0,Male,Primary,11.0,9.0,0.93,Local market,347.0,11140.0,February,Yes,84.4,Yes,No,3,Sandy loam,1327.5,Low,4.0,Yes,No,1.9,5640.0,4770000.0,11.33
 NYS-01191,2021,Toto,59.0,Female,No formal education,4.0,36.0,0.8,Certified seed yam,234.0,11500.0,December,No,218.6,No,Yes,2,Sandy loam,1123.2,Absent,0.0,No,No,13.9,5620.0,5321000.0,13.0
@@ -2113,7 +2113,7 @@ NYS-02015,2023,Awe,57.0,Male,Secondary,3.0,31.0,0.6,Own saved setts,145.0,9150.0
 NYS-01382,2021,Akwanga,47.0,Male,Primary,7.0,26.0,3.11,Local market,269.0,9420.0,February,Yes,39.4,No,No,2,Clay loam,1435.7,Absent,4.0,Yes,No,4.6,4480.0,20899000.0,12.13
 NYS-00104,2023,Keffi,36.0,Female,Tertiary,5.0,13.0,1.33,Own saved setts,138.0,11390.0,January,No,73.2,No,No,3,,1097.4,Moderate,2.0,No,No,6.9,1900.0,3102000.0,4.12
 NYS-01334,2025,Kokona,47.0,Male,Tertiary,4.0,21.0,3.15,Certified seed yam,317.0,10740.0,January,Yes,113.8,Yes,No,3,Sandy,1239.5,Moderate,1.0,No,No,4.3,6100.0,21776000.0,11.92
-NYS-00122,2022,Akwaga,55.0,Female,Primary,5.0,36.0,1.87,Own saved setts,336.0,10720.0,March,Yes,71.5,No,Yes,1,Sandy loam,1483.9,Moderate,3.0,Yes,Yes,20.2,5550.0,9622000.0,10.22
+NYS-00122,2022,Akwanga,55.0,Female,Primary,5.0,36.0,1.87,Own saved setts,336.0,10720.0,March,Yes,71.5,No,Yes,1,Sandy loam,1483.9,Moderate,3.0,Yes,Yes,20.2,5550.0,9622000.0,10.22
 NYS-00282,2022,Keana,70.0,Male,Secondary,8.0,44.0,1.74,Own saved setts,261.0,11020.0,January,Yes,104.9,No,Yes,4,Sandy loam,1467.2,Low,0.0,Yes,No,12.7,7450.0,8942000.0,11.52
 NYS-02082,2023,Lafia,47.0,Male,Primary,4.0,24.0,0.37,Local market,167.0,10630.0,December,No,81.9,No,No,3,Sandy,1563.2,Moderate,,No,No,10.6,3420.0,1474000.0,7.85
 NYS-01897,2022,Lafia,67.0,Male,Secondary,5.0,40.0,0.82,Own saved setts,269.0,9490.0,February,Yes,95.6,No,Yes,1,Loam,919.1,Low,0.0,Yes,Yes,3.6,4670.0,3544000.0,10.19

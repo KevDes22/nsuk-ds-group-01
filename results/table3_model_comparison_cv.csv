@@ -1,0 +1,5 @@
+model,R2 (mean),R2 (sd),"MAE (mean, t/ha)"
+Baseline (predict the mean),-0.002,0.002,2.378
+Linear regression,0.626,0.023,1.433
+Random forest,0.464,0.018,1.715
+Gradient boosting,0.627,0.016,1.439
