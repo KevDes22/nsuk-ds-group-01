@@ -8,11 +8,13 @@ cleaning code for LGAs, Yes/No and months; wrote report section 2; fixed the mer
 
 | # | Name | GitHub username | Role | What I did |
 |---|---|---|---|---|
-| 1 | Kevin Destiny Linus| @kevdes22 | Coordinator + Data lead (Parts 1–2) | |
+| 1 | Kevin Destiny Linus| @kevdes22 | Coordinator + Data lead (Parts 1–2) | Being the team lead, I set up the repository, invited team mates to join and I clean the data so other team member could work on this project. Also i assisted Member 5 in carrying out the machine learning aspect of the project.|
 | 2 | Idan Sesugh Stephen | @idanstephen | Visualisation lead (Parts 3 and 7) | |
 | 3 | Ikyernum Victor | @vik_daguru | Statistics lead (Parts 4–5) | |
 | 4 | Sangogade Oyinkansola Esther| @oyinjeje | Machine-learning lead (Part 6) | |
-| 5 | Benjamin Zekpo , Jemimah Agbinone, Jennifer Imogie | @zekpoJNR , @JemimahJames , @Jennifer-Imogie| App lead (Parts 8–9) | |
+| 5 | Benjamin Zekpo | @zekpoJNR | App lead (Parts 8–9) | |
+| 5 | Jemimah Agbinone | @JemimahJames | App lead (Parts 8–9) | |
+| 5 |  Jennifer Imogie |  @Jennifer-Imogie| App lead (Parts 8–9) | |
 
 ## Meeting log *(optional, but helps if there are disagreements later)*
 | Date | Who attended | What we agreed |
