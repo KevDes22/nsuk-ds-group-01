@@ -47,6 +47,7 @@ TEAM = [
     "Ikyernum Victor (Statistics lead)",
     "Sangogade Oyinkansola Esther (ML lead)",
     "Benjamin Zekpo (App lead)",
+    "Jemimah Agbinone(App lead)",
     "Jennifer Imogie (Team member)",
 ]
 
