@@ -64,7 +64,19 @@ One audit issue remains important: the Yes/No validation check failed because th
 *Harvest revenue and tubers harvested per hectare were excluded from predictive modelling because both are known after harvest. Revenue also incorporates information related to yield. Using either variable to predict yield in advance would give the model access to information unavailable at its intended prediction time.*
 
 ## 3. Exploratory analysis *(Member 2)*
-*Describe the distribution of yield (mean, SD, range) and your 3–5 key findings from Part 3, each with a number. Include at least one figure. Discuss the curved rainfall relationship and what the gender comparison tables showed.*
+*Across the 2,360 cleaned records, mean yield was 9.64 t/ha (SD = 2.94), with a median of 9.71 t/ha and a range of 1.50–18.70 t/ha. The middle half of yields fell between 7.71 and 11.61 t/ha. The closeness of the mean and median suggests a broadly balanced distribution.
+
+Yield differed across LGAs. Akwanga recorded the highest simulated mean (11.10 t/ha), followed by Toto (11.00) and Wamba (10.92). Kokona (7.94) and Keffi (7.95) had the lowest means. These comparisons describe the synthetic sample and do not establish geographical effects.
+
+Staked farms averaged 10.44 t/ha compared with 8.82 t/ha for non-staked farms. Certified seed yam had the highest mean yield (11.46 t/ha), followed by ADP/NGO seed (10.27), local market seed (9.50) and own saved setts (9.12). Figure 1 illustrates the joint descriptive patterns by seed source and staking.
+
+![Figure 1: Mean yam yield by seed source and staking, with 95% confidence intervals]
+
+The rainfall scatterplot and LOWESS curve indicated a hill-shaped relationship: yield was lower at both low and high rainfall levels. A simple linear correlation could therefore obscure an important nonlinear pattern. This motivated the inclusion of squared terms in the regression analysis.
+
+The gender comparisons showed differences in both productivity and access to resources. Female farmers averaged 9.40 t/ha compared with 9.73 t/ha among male farmers. Female farmers also had smaller mean farm areas (1.13 versus 1.52 ha), fewer extension visits (0.80 versus 1.53), and lower fertiliser application (105.25 versus 110.66 kg/ha). Credit access was 13.8% among females and 29.1% among males; staking was 35.1% and 55.2%, respectively. Cooperative membership was also lower among females (28.7% versus 43.2%). These descriptive differences suggested that the unadjusted yield gap should be examined alongside farming practices and resources.
+
+.*
 
 ![Figure X: …](../figures/…)
 
