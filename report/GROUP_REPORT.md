@@ -61,7 +61,7 @@ One audit issue remains important: the Yes/No validation check failed because th
 | | | | |
 
 ### 2.3 Leaky variables
-*Which two columns were excluded from prediction, and why?*
+*Harvest revenue and tubers harvested per hectare were excluded from predictive modelling because both are known after harvest. Revenue also incorporates information related to yield. Using either variable to predict yield in advance would give the model access to information unavailable at its intended prediction time.*
 
 ## 3. Exploratory analysis *(Member 2)*
 *Describe the distribution of yield (mean, SD, range) and your 3–5 key findings from Part 3, each with a number. Include at least one figure. Discuss the curved rainfall relationship and what the gender comparison tables showed.*
