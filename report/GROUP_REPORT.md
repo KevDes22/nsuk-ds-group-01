@@ -66,11 +66,9 @@ Staked farms averaged 10.44 t/ha compared with 8.82 t/ha for non-staked farms. C
 
 The rainfall scatterplot and LOWESS curve indicated a hill-shaped relationship: yield was lower at both low and high rainfall levels. A simple linear correlation could therefore obscure an important nonlinear pattern. This motivated the inclusion of squared terms in the regression analysis.
 
-The gender comparisons showed differences in both productivity and access to resources. Female farmers averaged 9.40 t/ha compared with 9.73 t/ha among male farmers. Female farmers also had smaller mean farm areas (1.13 versus 1.52 ha), fewer extension visits (0.80 versus 1.53), and lower fertiliser application (105.25 versus 110.66 kg/ha). Credit access was 13.8% among females and 29.1% among males; staking was 35.1% and 55.2%, respectively. Cooperative membership was also lower among females (28.7% versus 43.2%). These descriptive differences suggested that the unadjusted yield gap should be examined alongside farming practices and resources.
+The gender comparisons showed differences in both productivity and access to resources. Female farmers averaged 9.40 t/ha compared with 9.73 t/ha among male farmers. Female farmers also had smaller mean farm areas (1.13 versus 1.52 ha), fewer extension visits (0.80 versus 1.53), and lower fertiliser application (105.25 versus 110.66 kg/ha). Credit access was 13.8% among females and 29.1% among males; staking was 35.1% and 55.2%, respectively. Cooperative membership was also lower among females (28.7% versus 43.2%). These descriptive differences suggested that the unadjusted yield gap should be examined alongside farming practices and resources.*
 
-.*
 
-![Figure X: …](../figures/…)
 
 ## 4. Hypothesis tests 
 A Welch's independent-samples t-test showed that staked farms (n = 1,145, M = 10.44, SD = 2.82 t/ha) had higher mean yield than non-staked farms (n = 1,164, M = 8.82, SD = 2.84 t/ha). The difference was 1.62 t/ha, 95% CI [1.39, 1.85], t = 13.73, p < .001, Cohen's d = 0.57. This moderate standardised difference supported H1. The test excluded 51 farms without a recorded staking category after cleaning.
