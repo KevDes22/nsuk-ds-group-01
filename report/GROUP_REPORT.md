@@ -15,14 +15,26 @@
 *In one paragraph: the question, the data (n farms, 13 LGAs, synthetic), the methods (cleaning, t-tests, chi-square, multiple regression, machine learning), the 2–3 most important results **with numbers**, and the main conclusion.*
 
 ## 1. Introduction and research question *(Member 5 or Coordinator)*
-*Why does yam yield matter in Nasarawa State (food security, income)? State the research question and hypotheses H1–H3 from Part 4.1 of the notebook. Say clearly that the data is synthetic and for teaching.*
+*Yam production is relevant to household food security, agricultural livelihoods and farm income. Understanding how cultivation practices, environmental conditions and access to agricultural resources relate to productivity can help identify questions worth investigating through field research. However, differences in yield may reflect several factors operating together rather than a single farming practice.
+
+The project investigated the following research question: **Which farm practices are associated with higher yam yield among smallholder farmers in Nasarawa State?**
+
+Three hypotheses were specified in the notebook:
+
+- **H1:** Farms that stake their yam vines have a higher mean yield than farms that do not.
+- **H2:** Cooperative members are more likely to have access to credit.
+- **H3:** Mean yield differs between male and female farmers.
+
+The analysis used synthetic data simulated for teaching, not observations collected from actual farmers. Its purpose was to demonstrate data preparation, statistical inference, predictive modelling and reproducible reporting. The results must therefore not be interpreted as estimates of actual agricultural conditions in Nasarawa State.*
 
 ## 2. Data and cleaning *(Member 1)*
 ### 2.1 The dataset
 *Describe the survey: number of rows and columns, what one row represents, the outcome variable and its unit, and the main groups of variables (farmer, practices, environment, outcomes). Refer to `data/README.md`.*
 
 ### 2.2 Data-quality problems and how we fixed them
-*Paste and complete your audit table from Part 1.9: problem → columns → how many rows → fix. Then give the final number of farms after cleaning and explain why missing values were **not** filled in at this stage.*
+*The raw dataset contained 2,436 rows and 28 columns, with simulated survey years ranging from 2021 to 2025. Each row represented a farm record. The outcome was `yield_t_per_ha`, measured in tonnes per hectare, allowing productivity to be compared independently of total farm area.
+
+Variables covered farmer demographics and resources (age, gender, education, household size, farming experience, credit and cooperative membership), cultivation practices (seed source, sett weight, mound density, planting month, staking, fertiliser, manure, intercropping and weeding), environmental conditions (soil, rainfall and pest and disease pressure), location and services (LGA, extension visits and market distance), and harvest outcomes (yield, tuber count and revenue). The repository's designated dataset documentation is [`data/README.md`](../data/README.md).*
 
 | Problem | Columns | Rows affected | Fix |
 |---|---|---|---|
