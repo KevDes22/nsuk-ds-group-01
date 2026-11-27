@@ -2,7 +2,7 @@
 
 **Group 01** · NSUK Python for Data Science Workshop 2026 · Group project
 
-**Authors:** *Kevin Destiny Linus, Idan Sesugh Stephen, Ikyernum Victor, Sangogade Oyinkansola Esther, Benjamin Zekpo*
+**Authors:** *Kevin Destiny Linus, Idan Sesugh Stephen, Ikyernum Victor, Sangogade Oyinkansola Esther, Benjamin Zekpo, Jennifer Imogie*
 
 > *How to use this template: replace every line in italics with your own writing, then delete the guidance. Each
 > section lists who usually drafts it, but agree this in your group. Target length: **1,500–2,500 words**, plus figures
