@@ -14,7 +14,7 @@ cleaning code for LGAs, Yes/No and months; wrote report section 2; fixed the mer
 | 4 | Sangogade Oyinkansola Esther| @oyinjeje | Machine-learning lead (Part 6) | Led the implementation of the machine learning solution, overseeing data preprocessing and collaborated with team members to achieve the project objectives. |
 | 5 | Benjamin Zekpo | @zekpoJNR | App lead (Parts 8–9) | |
 | 6 | Jemimah Agbinone | @JemimahJames | App lead (Parts 8–9) | I compiled part 4 - 10 of the report; Hypothesis tests, Regression analysis, machine learning prediction, discussions and conclusion. I also assisted in creating and deploying the model on Streamlit app.|
-| 7 |  Jennifer Imogie |  @Jennifer-Imogie| App lead (Parts 8–9) | |
+| 7 |  Jennifer Imogie |  @Jennifer-Imogie| App lead (Parts 8–9) | | I worked on deployment of our application on Streamlit, adding additional features and testing of our application.|
 
 ## Meeting log *(optional, but helps if there are disagreements later)*
 | Date | Who attended | What we agreed |
