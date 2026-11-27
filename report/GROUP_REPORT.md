@@ -29,7 +29,7 @@ The analysis used synthetic data simulated for teaching, not observations collec
 
 ## 2. Data and cleaning *(Member 1)*
 ### 2.1 The dataset
-*Describe the survey: number of rows and columns, what one row represents, the outcome variable and its unit, and the main groups of variables (farmer, practices, environment, outcomes). Refer to `data/README.md`.*
+
 
 ### 2.2 Data-quality problems and how we fixed them
 *The raw dataset contained 2,436 rows and 28 columns, with simulated survey years ranging from 2021 to 2025. Each row represented a farm record. The outcome was `yield_t_per_ha`, measured in tonnes per hectare, allowing productivity to be compared independently of total farm area.
