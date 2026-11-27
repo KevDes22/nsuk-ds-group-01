@@ -1,6 +1,6 @@
 {
   "group": "Group 01",
-  "model": "HistGradientBoostingRegressor",
+  "model": "LinearRegression",
   "target": "yield_t_per_ha",
   "numeric_features": [
     "farmer_age",
@@ -30,9 +30,9 @@
     "access_to_credit"
   ],
   "test_metrics": {
-    "MAE": 1.4784961565882786,
-    "RMSE": 1.8453965321661414,
-    "R2": 0.5788355095077848
+    "MAE": 1.4436037919479274,
+    "RMSE": 1.8475978740926617,
+    "R2": 0.5778301103843937
   },
   "n_training_rows": 1888,
   "numeric_ranges": {
@@ -164,9 +164,9 @@
       "Yes"
     ]
   },
-  "trained_at": "2026-11-26T16:20:50+00:00",
+  "trained_at": "2026-11-27T05:55:40+00:00",
   "python": "3.15.2",
   "scikit_learn": "1.9.1",
   "data_note": "Trained on SYNTHETIC teaching data. Do not use for real farm decisions.",
-  "notes": "Chosen by 5-fold CV (Gradient boosting)"
+  "notes": "Chosen by 5-fold CV (Linear regression)"
 }

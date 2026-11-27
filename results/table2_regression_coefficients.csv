@@ -1,26 +1,26 @@
 ,coef,ci_low,ci_high,p_value
-Intercept,3.131,2.089,4.174,0.0
-"C(staking, Treatment('No'))[T.Yes]",1.578,1.38,1.775,0.0
-"C(organic_manure, Treatment('No'))[T.Yes]",0.848,0.647,1.049,0.0
-"C(intercropped, Treatment('No'))[T.Yes]",-0.679,-0.874,-0.484,0.0
-"C(planting_month, Treatment('March'))[T.April]",-1.264,-1.618,-0.91,0.0
-"C(planting_month, Treatment('March'))[T.December]",0.462,0.098,0.827,0.013
-"C(planting_month, Treatment('March'))[T.February]",0.42,0.157,0.684,0.002
-"C(planting_month, Treatment('March'))[T.January]",0.726,0.438,1.015,0.0
-"C(soil_type, Treatment('Clay loam'))[T.Loam]",0.986,0.702,1.27,0.0
-"C(soil_type, Treatment('Clay loam'))[T.Sandy]",-0.763,-1.088,-0.438,0.0
-"C(soil_type, Treatment('Clay loam'))[T.Sandy loam]",0.659,0.391,0.928,0.0
-"C(access_to_credit, Treatment('No'))[T.Yes]",0.043,-0.197,0.283,0.726
-"C(seed_source, Treatment('Own saved setts'))[T.ADP / NGO]",1.159,0.865,1.454,0.0
-"C(seed_source, Treatment('Own saved setts'))[T.Certified seed yam]",2.32,1.966,2.674,0.0
-"C(seed_source, Treatment('Own saved setts'))[T.Local market]",0.275,0.049,0.501,0.017
-"C(pest_disease_level, Treatment('Low'))[T.Absent]",0.62,0.381,0.859,0.0
-"C(pest_disease_level, Treatment('Low'))[T.High]",-3.07,-3.424,-2.716,0.0
-"C(pest_disease_level, Treatment('Low'))[T.Moderate]",-1.297,-1.551,-1.043,0.0
-"C(gender, Treatment('Male'))[T.Female]",0.15,-0.076,0.377,0.193
+Intercept,3.088,2.027,4.148,0.0
+"C(staking, Treatment('No'))[T.Yes]",1.592,1.39,1.793,0.0
+"C(organic_manure, Treatment('No'))[T.Yes]",0.855,0.65,1.061,0.0
+"C(intercropped, Treatment('No'))[T.Yes]",-0.699,-0.898,-0.501,0.0
+"C(planting_month, Treatment('March'))[T.April]",-1.301,-1.663,-0.94,0.0
+"C(planting_month, Treatment('March'))[T.December]",0.462,0.091,0.834,0.015
+"C(planting_month, Treatment('March'))[T.February]",0.415,0.145,0.685,0.003
+"C(planting_month, Treatment('March'))[T.January]",0.759,0.464,1.054,0.0
+"C(soil_type, Treatment('Clay loam'))[T.Loam]",0.999,0.71,1.289,0.0
+"C(soil_type, Treatment('Clay loam'))[T.Sandy]",-0.743,-1.074,-0.412,0.0
+"C(soil_type, Treatment('Clay loam'))[T.Sandy loam]",0.657,0.382,0.931,0.0
+"C(access_to_credit, Treatment('No'))[T.Yes]",0.05,-0.196,0.296,0.689
+"C(seed_source, Treatment('Own saved setts'))[T.ADP / NGO]",1.175,0.873,1.477,0.0
+"C(seed_source, Treatment('Own saved setts'))[T.Certified seed yam]",2.296,1.934,2.657,0.0
+"C(seed_source, Treatment('Own saved setts'))[T.Local market]",0.294,0.064,0.524,0.012
+"C(pest_disease_level, Treatment('Low'))[T.Absent]",0.61,0.367,0.854,0.0
+"C(pest_disease_level, Treatment('Low'))[T.High]",-3.086,-3.446,-2.726,0.0
+"C(pest_disease_level, Treatment('Low'))[T.Moderate]",-1.344,-1.604,-1.083,0.0
+"C(gender, Treatment('Male'))[T.Female]",0.161,-0.069,0.391,0.17
 fertilizer_kg_per_ha,0.011,0.01,0.012,0.0
 rainfall_mm,0.001,0.001,0.002,0.0
-mound_density_per_ha,0.0,-0.0,0.0,0.182
+mound_density_per_ha,0.0,-0.0,0.0,0.141
 sett_weight_g,0.003,0.002,0.005,0.0
-weeding_count,0.368,0.256,0.48,0.0
-extension_visits,0.176,0.103,0.249,0.0
+weeding_count,0.372,0.258,0.486,0.0
+extension_visits,0.17,0.095,0.246,0.0
