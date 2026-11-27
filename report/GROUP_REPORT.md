@@ -2,19 +2,13 @@
 
 **Group 01** · NSUK Python for Data Science Workshop 2026 · Group project
 
-**Authors:** *Kevin Destiny Linus, Idan Sesugh Stephen, Ikyernum Victor, Sangogade Oyinkansola Esther, Benjamin Zekpo, Jennifer Imogie*
+**Authors:** Kevin Destiny Linus, Idan Sesugh Stephen, Ikyernum Victor, Sangogade Oyinkansola Esther, Benjamin Zekpo, Jemimah Agbinone and Jennifer Imogie
 
-> *How to use this template: replace every line in italics with your own writing, then delete the guidance. Each
-> section lists who usually drafts it, but agree this in your group. Target length: **1,500–2,500 words**, plus figures
-> and tables. Every number must come from your notebook. To include a figure:*
-> `![Figure 1: caption](../figures/fig1_yield_by_seed_and_staking.png)`
 
----
+## Abstract 
+This study examined farm practices associated with yam yield using a synthetic survey representing smallholder farms across the 13 local government areas (LGAs) of Nasarawa State. Following data auditing and cleaning, 2,360 of 2,436 records were retained. Exploratory analysis, Welch's t-tests, a chi-square test, multiple regression and machine learning were used to investigate yield differences and predictive performance. Mean yield was 9.64 tonnes per hectare (t/ha). Staked farms yielded 1.62 t/ha more than non-staked farms (95% CI [1.39, 1.85], p < .001). Credit access was more common among cooperative members (41.2%) than non-members (14.6%). The regression model incorporating squared terms achieved an adjusted R² of 0.605. Linear regression was the best-performing prediction model in cross-validation and achieved a test R² of 0.578 and mean absolute error of 1.44 t/ha. Seed source, pest and disease pressure, fertiliser and staking emerged as important factors. These findings illustrate a reproducible analytical workflow rather than establish real-world agricultural effects.
 
-## Abstract *(Member 5, written last, ~150 words)*
-*In one paragraph: the question, the data (n farms, 13 LGAs, synthetic), the methods (cleaning, t-tests, chi-square, multiple regression, machine learning), the 2–3 most important results **with numbers**, and the main conclusion.*
-
-## 1. Introduction and research question *(Member 5 or Coordinator)*
+## 1. Introduction and research question 
 *Yam production is relevant to household food security, agricultural livelihoods and farm income. Understanding how cultivation practices, environmental conditions and access to agricultural resources relate to productivity can help identify questions worth investigating through field research. However, differences in yield may reflect several factors operating together rather than a single farming practice.
 
 The project investigated the following research question: **Which farm practices are associated with higher yam yield among smallholder farmers in Nasarawa State?**
@@ -27,7 +21,7 @@ Three hypotheses were specified in the notebook:
 
 The analysis used synthetic data simulated for teaching, not observations collected from actual farmers. Its purpose was to demonstrate data preparation, statistical inference, predictive modelling and reproducible reporting. The results must therefore not be interpreted as estimates of actual agricultural conditions in Nasarawa State.*
 
-## 2. Data and cleaning *(Member 1)*
+## 2. Data and cleaning
 ### 2.1 The dataset
 *The raw dataset contained 2,436 rows and 28 columns, with simulated survey years ranging from 2021 to 2025. Each row represented a farm record. The outcome was `yield_t_per_ha`, measured in tonnes per hectare, allowing productivity to be compared independently of total farm area.
 
@@ -63,7 +57,7 @@ One audit issue remains important: the Yes/No validation check failed because th
 ### 2.3 Leaky variables
 *Harvest revenue and tubers harvested per hectare were excluded from predictive modelling because both are known after harvest. Revenue also incorporates information related to yield. Using either variable to predict yield in advance would give the model access to information unavailable at its intended prediction time.*
 
-## 3. Exploratory analysis *(Member 2)*
+## 3. Exploratory analysis 
 *Across the 2,360 cleaned records, mean yield was 9.64 t/ha (SD = 2.94), with a median of 9.71 t/ha and a range of 1.50–18.70 t/ha. The middle half of yields fell between 7.71 and 11.61 t/ha. The closeness of the mean and median suggests a broadly balanced distribution.
 
 Yield differed across LGAs. Akwanga recorded the highest simulated mean (11.10 t/ha), followed by Toto (11.00) and Wamba (10.92). Kokona (7.94) and Keffi (7.95) had the lowest means. These comparisons describe the synthetic sample and do not establish geographical effects.
