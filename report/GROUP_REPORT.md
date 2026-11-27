@@ -34,9 +34,27 @@ The analysis used synthetic data simulated for teaching, not observations collec
 Variables covered farmer demographics and resources (age, gender, education, household size, farming experience, credit and cooperative membership), cultivation practices (seed source, sett weight, mound density, planting month, staking, fertiliser, manure, intercropping and weeding), environmental conditions (soil, rainfall and pest and disease pressure), location and services (LGA, extension visits and market distance), and harvest outcomes (yield, tuber count and revenue). The repository's designated dataset documentation is [`data/README.md`](../data/README.md).*
 
 ### 2.2 Data-quality problems and how we fixed them
-*The raw dataset contained 2,436 rows and 28 columns, with simulated survey years ranging from 2021 to 2025. Each row represented a farm record. The outcome was `yield_t_per_ha`, measured in tonnes per hectare, allowing productivity to be compared independently of total farm area.
+*The audit preceded cleaning. The raw data were preserved, and transformations were performed in Python using pandas so that the workflow could be reproduced.
 
-Variables covered farmer demographics and resources (age, gender, education, household size, farming experience, credit and cooperative membership), cultivation practices (seed source, sett weight, mound density, planting month, staking, fertiliser, manure, intercropping and weeding), environmental conditions (soil, rainfall and pest and disease pressure), location and services (LGA, extension visits and market distance), and harvest outcomes (yield, tuber count and revenue). The repository's designated dataset documentation is [`data/README.md`](../data/README.md).*
+| Problem | Columns | Rows affected | Fix |
+|---|---|---|---|
+| Exact duplicates | All | 36 | Removed duplicate records, leaving 2,400 rows. |
+| Inconsistent LGA names | `lga` | 49 distinct spellings, rather than 13; row count not reported | Trimmed spaces, standardised case and mapped spelling variants to official names. |
+| Inconsistent binary responses | `staking`, `organic_manure`, `intercropped`, `cooperative_member`, `access_to_credit` | Hundreds of entries; exact unique row count not reported | Trimmed spaces and mapped labels. Some single-letter responses became missing because of a mapping error. |
+| Inconsistent gender labels | `gender` | 241 raw entries outside the standard Male/Female labels (from audit frequencies) | Standardised case and mapped abbreviations to Male/Female. |
+| Inconsistent planting months | `planting_month` | 25 distinct labels; exact unique row count not reported | Mapped full names, abbreviations and numeric codes to five month names. |
+| Non-numeric fertiliser entries | `fertilizer_kg_per_ha` | 72 missing after conversion and deduplication; three distinct text labels | Converted to numeric; invalid text became missing. |
+| Currency-formatted revenue | `harvest_revenue_naira` | 612 raw entries | Removed currency symbols and commas and converted to numeric. |
+| Missing-value sentinel | `rainfall_mm` | 28 raw entries | Replaced −999 with missing values. |
+| Implausible measurements | `farmer_age`, `farm_size_ha`, `mound_density_per_ha`, `yield_t_per_ha` | After deduplication: 14, 9, 7 and 4, respectively | Replaced measurements outside specified valid ranges with missing values. |
+| Existing missing values | Nine columns | See counts below | Retained missing predictors; removed records without valid yield. |
+| Outcome leakage | `harvest_revenue_naira`, `tubers_harvested_per_ha` | All records | Excluded from pre-harvest prediction features. |
+
+Before cleaning, missing values occurred in sett weight (145), extension visits (123), soil type (122), market distance (98), rainfall (87), farmer age (70), education (62), household size (48) and yield (39). These are column-level counts and may overlap across records.
+
+After removing duplicates and 40 records without valid yield, the cleaned dataset contained **2,360 farms and 28 columns**, with all 13 LGAs represented and no missing outcome values. Missing predictors were not filled during cleaning because the regression used complete cases, while predictive modelling handled imputation inside its training pipeline to avoid information leakage.
+
+One audit issue remains important: the Yes/No validation check failed because the code converted input to lowercase but retained uppercase single-letter keys in its mapping dictionary. Consequently, some valid responses were converted to missing values. The reported analyses reflect the notebook as supplied; the mapping should be corrected and the notebook rerun before treating these figures as final.*
 
 | Problem | Columns | Rows affected | Fix |
 |---|---|---|---|
