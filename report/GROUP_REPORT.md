@@ -80,43 +80,122 @@ The gender comparisons showed differences in both productivity and access to res
 
 ![Figure X: …](../figures/…)
 
-## 4. Hypothesis tests *(Member 3)*
-*Report H1 (staking, Welch's t-test), H2 (cooperative × credit, chi-square) and H3 (gender, t-test) in APA style with effect sizes and confidence intervals. Example:*
-> *Farms that staked their vines had a higher mean yield than farms that did not (difference = __ t/ha, 95% CI [__, __]), Welch's t = __, p < .001, Cohen's d = __.*
+## 4. Hypothesis tests 
+A Welch's independent-samples t-test showed that staked farms (n = 1,145, M = 10.44, SD = 2.82 t/ha) had higher mean yield than non-staked farms (n = 1,164, M = 8.82, SD = 2.84 t/ha). The difference was 1.62 t/ha, 95% CI [1.39, 1.85], t = 13.73, p < .001, Cohen's d = 0.57. This moderate standardised difference supported H1. The test excluded 51 farms without a recorded staking category after cleaning.
 
-*Include Table 1 (descriptive statistics by staking).*
+**Table 1. Descriptive statistics by staking status (mean and standard deviation)**
 
-## 5. Regression analysis *(Member 3)*
-*Which variables were in the model, how many rows were used (and why fewer than the cleaned total), and the adjusted R². Interpret the 4–6 most important coefficients with their 95% CIs (direction, size, unit). Explain what the squared terms show. **Discuss the gender gap:** raw difference vs adjusted difference, and what this suggests. Include Figure 2 (coefficient plot). Mention the assumption checks.*
+| Variable | Non-staked M | Non-staked SD | Staked M | Staked SD |
+|---|---:|---:|---:|---:|
+| Yield (t/ha) | 8.82 | 2.84 | 10.44 | 2.82 |
+| Fertiliser (kg/ha) | 108.45 | 85.82 | 109.24 | 90.46 |
+| Farm size (ha) | 1.43 | 1.85 | 1.40 | 0.94 |
+| Weeding count | 2.48 | 0.86 | 2.48 | 0.86 |
+| Extension visits | 1.10 | 1.27 | 1.55 | 1.48 |
 
-![Figure 2: Farm practices associated with yam yield (regression coefficients with 95% CIs)](../figures/fig2_regression_coefficients.png)
+**H2: Cooperative membership and credit access**
+
+Among 880 cooperative members with complete membership and credit information, 363 (41.2%) had credit access. Among 1,372 non-members, 200 (14.6%) had access. A chi-square test established a statistically significant association, χ²(1, N = 2,252) = 202.00, p < .001, Cramér's V = 0.30. H2 was supported. The association does not establish that joining a cooperative causes improved access to credit. The notebook did not calculate a confidence interval for Cramér's V
+
+### H3: Gender and yam yield
+
+Male farmers had a mean yield of 9.73 t/ha compared with 9.40 t/ha for female farmers. Welch's t-test indicated a statistically significant unadjusted difference of 0.33 t/ha, t = 2.47, p = .014, supporting H3 at the 5% significance level. The notebook did not report Cohen's d or a confidence interval for this comparison; the adjusted gender confidence interval is reported in Section 5.
+
+An additional one-way ANOVA identified differences in mean yield across the four seed sources (F = 49.86, p < .001). This omnibus test does not establish which individual pairs differ significantly.
+
+
+## 5. Regression analysis 
+Ordinary least squares regression was used to examine associations with yield while holding the included predictors constant. The model incorporated fertiliser, rainfall, mound density, sett weight, weeding count, extension visits, staking, organic manure, intercropping, planting month, soil type, credit access, seed source, pest and disease level, and gender.
+
+The initial model used 1,687 complete records out of 2,360; 673 were excluded through listwise deletion. It achieved R² = 0.532 and adjusted R² = 0.525. Table 2 presents six selected coefficients from this initial model, rather than attributing them to the later nonlinear specification.
+
+**Table 2. Selected adjusted associations with yield in the initial regression**
+
+| Predictor or comparison | Coefficient (t/ha) | 95% CI |
+|---|---:|---|
+| Certified seed versus own saved setts | 2.296 | [1.934, 2.657] |
+| Staking versus no staking | 1.592 | [1.390, 1.793] |
+| High versus low pest/disease pressure | −3.086 | [−3.446, −2.726] |
+| Organic manure versus none | 0.855 | [0.650, 1.061] |
+| Intercropping versus no intercropping | −0.699 | [−0.898, −0.501] |
+| April versus March planting | −1.301 | [−1.663, −0.940] |
+
+All six associations had p < .001. Certified seed and staking were positively associated with yield, while high pest and disease pressure showed a substantial negative association. The intercropping and planting-month estimates should be interpreted within the simulated conditions, not as general recommendations to abandon intercropping or avoid April planting.
+
+![Figure 2: Farm practices associated with yam yield in the initial regression (coefficients with 95% confidence intervals)](../figures/fig2_regression_coefficients.png)
+
+Adding squared rainfall and mound-density terms improved adjusted R² from 0.525 to 0.605, suggesting that allowing nonlinear relationships improved model fit. The notebook did not display the squared-term coefficients successfully, so their individual signs, confidence intervals and turning points cannot be verified from the supplied outputs. The mound-density centring constant of 10 should also be reviewed against the variable's per-hectare scale.
+
+The raw female-minus-male yield gap was −0.33 t/ha. After adjustment in the model with squared terms, the estimated difference became +0.20 t/ha (95% CI [−0.01, 0.41], p = .059). The interval includes zero, indicating insufficient evidence of an adjusted gender difference at the 5% level. This pattern is consistent with differences in measured practices and resources contributing to the raw gap, but does not demonstrate mediation or causation.
+
+Assumption checks for the initial model included residual-versus-fitted and normal Q–Q plots. Residuals were broadly centred around zero, with some extreme observations and tail deviations. The Jarque–Bera test gave p = .060. The large condition number (1.12 × 10⁵) warrants investigation of variable scaling and possible multicollinearity. Conventional non-robust standard errors were used; formal heteroscedasticity and influence checks would strengthen the analysis.
+
 
 ## 6. Predicting yield with machine learning *(Member 4)*
-*Features used, train/test split, the four models compared (include Table 3 from `results/table3_model_comparison_cv.csv`), which model was chosen and why, and the test-set R², MAE and RMSE in plain words ("predictions are typically within about __ t/ha"). Explain the leakage experiment in your own words. Include Figures 3 and 4 and comment on feature importance (and why importance ≠ causation).*
+Prediction used 23 features: 11 numerical and 12 categorical variables covering demographics, farm resources, management practices, location and environmental conditions. Farm identifiers, survey year, the target and post-harvest leakage variables were excluded. An 80:20 random split produced 1,888 training and 472 test records. Numerical variables were median-imputed and standardised, while categorical variables were imputed with their most frequent category and one-hot encoded. Preprocessing was integrated into each model pipeline.
 
-![Figure 3: Predicted vs actual yield on the test set](../figures/fig3_predicted_vs_actual.png)
+Four models were compared using five-fold cross-validation on training data.
 
-![Figure 4: Permutation feature importance](../figures/fig4_feature_importance.png)
+**Table 3. Cross-validation comparison of prediction models**
 
-## 7. The Streamlit app *(Member 5)*
-*What the app does, who could use it, and how to run it. Include 2–3 screenshots. Mention its limitations (synthetic data, only valid within the ranges seen in training, not causal).*
+| Model | Mean R² | R² SD | Mean MAE (t/ha) |
+|---|---:|---:|---:|
+| Mean-prediction baseline | −0.002 | 0.002 | 2.378 |
+| Linear regression | 0.626 | 0.023 | 1.435 |
+| Random forest | 0.464 | 0.018 | 1.716 |
+| Gradient boosting | 0.625 | 0.016 | 1.444 |
 
-## 8. Discussion and limitations *(everyone)*
-*What do the results mean together? Which practices seem most promising for farmers or extension officers? Limitations: synthetic data; observational (association, not causation); missing data and listwise deletion in the regression; possible unmeasured confounders; model only valid for farms similar to the training data.*
+Linear regression was selected because it achieved the highest mean cross-validation R² and lowest mean MAE, although its advantage over gradient boosting was very small. On the held-out test set, it achieved R² = 0.578, MAE = 1.444 t/ha and RMSE = 1.848 t/ha. In practical terms, predictions differed from observed synthetic yields by about 1.44 t/ha on average in absolute terms. This is an average error, not a guaranteed prediction interval.
 
-## 9. Conclusion *(Member 5)*
-*3–5 sentences answering the research question.*
+![Figure 3: Predicted versus actual yam yield on the held-out test set](../figures/fig3_predicted_vs_actual.png)
 
-## 10. What we learned as a team *(everyone, ~1 short paragraph each, optional but encouraged)*
-*What was hard, what you would do differently, and how you used Git and GitHub together.*
+The leakage experiment demonstrated why apparently excellent prediction scores can be misleading. Adding tubers harvested per hectare to gradient boosting increased mean cross-validation R² from 0.625 to 0.874. Since tuber counts are unavailable before harvest, the improvement represents an unrealistic prediction advantage rather than evidence of a better pre-harvest model.
+
+Permutation importance identified LGA, pest and disease level, fertiliser, staking and seed source as the leading predictive features. Shuffling these variables reduced test-set R² more than shuffling most other features. Importance describes model reliance and does not establish that intervening on a feature will cause a corresponding change in yield.
+
+![Figure 4: Permutation feature importance on the test set](../figures/fig4_feature_importance.png)
+
+The fitted pipeline and model card were saved as `models/yam_yield_model.joblib` and `models/model_card.json` for the application.
+
+
+## 7. The Streamlit app 
+The project's Streamlit application is intended to make yield prediction and exploration accessible without requiring users to write Python code. The notebook confirms that the saved model and cleaned data were available to the app. Its recorded figure filenames identify prediction, data exploration, LGA ranking and dataset information tabs. Potential users include workshop participants, agricultural researchers and extension officers exploring simulated scenarios.
+
+From the repository root, install the dependencies and start the app:
+
+```bash
+pip install -r requirements.txt
+streamlit run app/streamlit_app.py
+```
+
+![Figure 5: Streamlit prediction tab](../figures/Predict_tab.png)
+
+![Figure 6: Streamlit data exploration tab](../figures/Explore%20Data.png)
+
+![Figure 7: Streamlit LGA ranking tab](../figures/LGA_Ranking_tab.png)
+
+The screenshot filenames are recorded in the notebook, but the screenshot files and app source were not supplied with this report for independent inspection. Predictions should be restricted to conditions similar to those represented in training and should not be used as causal estimates or real-world farming advice.
+
+
+## 8. Discussion and limitations 
+Taken together, the simulated results identify staking, seed quality, fertiliser management and pest and disease pressure as promising subjects for further investigation. Cooperative membership was associated with credit access, while the gender comparison highlighted the importance of accounting for differences in resources and practices before interpreting productivity gaps. The nonlinear regression improvement also demonstrates the value of examining environmental relationships beyond simple linear correlations.
+
+The principal limitation is that the data are synthetic. Moreover, the analytical design is observational in form, so associations cannot establish causal effects. Complete-case regression may be sensitive to missing-data patterns, particularly given the binary mapping issue. Unmeasured confounders, geographical clustering and model specification may influence estimates. The prediction model was evaluated on a random split from the same synthetic dataset rather than independently collected farms, so its performance cannot establish external validity. Real farm surveys, corrected cleaning, sensitivity analyses and independent validation are needed before applying the findings operationally.
+
+## 9. Conclusion 
+The analysis identified several management and environmental variables associated with simulated yam yield, notably staking, certified seed, fertiliser and pest and disease pressure. Adjusting for measured practices substantially changed the raw gender difference, while cooperative membership was associated with credit access. Linear regression provided useful predictive performance without including post-harvest leakage variables. The project demonstrates a reproducible data science workflow, but its findings require validation with real agricultural data.
+
+
+## 10. What we learned as a team 
+The project illustrates why data validation must precede modelling, why statistical significance should be accompanied by effect sizes, and why predictive accuracy must be evaluated without leakage. It also demonstrates the distinction between explanatory and predictive models and the importance of keeping code, data transformations, figures and reports under version control. The notebook assigns responsibilities for data cleaning, visualisation, statistics, modelling and application development, with Git and GitHub handoffs specified between stages. Individual contributions and actual commit history should be confirmed in the repository's contributions record.
 
 ---
 
-## References
-*Only cite sources you have actually read. Check every reference exists, because AI tools invent references. If you cite nothing, delete this section.*
-
 ## Appendix: reproducibility
-- Repository: *link*
-- Run: `pip install -r requirements.txt` → open `notebooks/group_project.ipynb` → **Run All** → `streamlit run app/streamlit_app.py`
-- AI use: see [`docs/AI_USE_STATEMENT.md`](../docs/AI_USE_STATEMENT.md)
-- Contributions: see [`CONTRIBUTIONS.md`](../CONTRIBUTIONS.md)
+- **Repository:** `nsuk-ds-group-01` (confirm and insert the actual GitHub repository URL before submission).
+- **Run:** `pip install -r requirements.txt` → open `notebooks/group_project.ipynb` → **Restart and Run All** → `streamlit run app/streamlit_app.py`.
+- **Outputs:** `data/processed/yam_survey_clean.csv`, `results/`, `figures/` and the saved model and model card.
+- **AI use:** see [`docs/AI_USE_STATEMENT.md`](../docs/AI_USE_STATEMENT.md).
+- **Contributions:** see [`CONTRIBUTIONS.md`](../CONTRIBUTIONS.md).
+- **Source:** supplied group project notebook and its saved outputs. No external references were used.
+- **Verification before submission:** correct the binary mapping, rerun the notebook and update affected results; confirm the author list (the notebook includes two additional names beyond the original report template), repository URL and screenshot links. The raw dataset, supporting project files and live app were not independently rerun or inspected for this report.
