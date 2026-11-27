@@ -50,9 +50,7 @@ After removing duplicates and 40 records without valid yield, the cleaned datase
 
 One audit issue remains important: the Yes/No validation check failed because the code converted input to lowercase but retained uppercase single-letter keys in its mapping dictionary. Consequently, some valid responses were converted to missing values. The reported analyses reflect the notebook as supplied; the mapping should be corrected and the notebook rerun before treating these figures as final.*
 
-| Problem | Columns | Rows affected | Fix |
-|---|---|---|---|
-| | | | |
+
 
 ### 2.3 Leaky variables
 *Harvest revenue and tubers harvested per hectare were excluded from predictive modelling because both are known after harvest. Revenue also incorporates information related to yield. Using either variable to predict yield in advance would give the model access to information unavailable at its intended prediction time.*
