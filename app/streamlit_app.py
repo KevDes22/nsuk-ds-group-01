@@ -47,6 +47,7 @@ TEAM = [
     "Ikyernum Victor (Statistics lead)",
     "Sangogade Oyinkansola Esther (ML lead)",
     "Benjamin Zekpo (App lead)",
+    "Jennifer Imogie (Team member)",
 ]
 
 
@@ -77,7 +78,7 @@ st.title(f"🍠 Yam Yield Predictor · {GROUP_NAME}")
 # TODO 3: Add a one-sentence description of the app under the title.
 # 💡 Hint: delete the # at the start of the next line and change the text if you like
 # ============================================================================
-# st.caption("Predicts the yam yield (tonnes per hectare) of a farm in Nasarawa State from its practices. Trained on SYNTHETIC data for teaching.")
+st.caption("Predicts the yam yield (tonnes per hectare) of a farm in Nasarawa State from its practices. Trained on SYNTHETIC data for teaching.")
 
 with st.sidebar:
     st.header("👥 Our team")
@@ -95,7 +96,7 @@ if not MODEL_PATH.exists() or not PROCESSED_PATH.exists():
 model, card = get_model()
 data = get_data()
 
-tab_predict, tab_explore, tab_about = st.tabs(["🔮 Predict one farm", "📊 Explore the data", "ℹ️ About the model"])
+tab_predict, tab_explore, tab_about, tab_lga = st.tabs(["🔮 Predict one farm", "📊 Explore the data", "ℹ️ About the model", "🏆 LGA Ranking"])
 
 
 # ============================================================================
@@ -135,7 +136,7 @@ with tab_predict:
         # model.predict(...) returns a list with one number in it; [0] takes that number.
         # 💡 Hint: delete the # at the start of the next line
         # ====================================================================
-        # prediction = float(model.predict(farm)[0])
+        prediction = float(model.predict(farm)[0])
 
         if prediction is None:
             st.info("👋 Complete **TODO 4** in `app/streamlit_app.py` to see the prediction.")
@@ -147,14 +148,14 @@ with tab_predict:
             # TODO 5: Show the prediction as a big number with c1.metric(label, value, change)
             # 💡 Hint: c1.metric("Predicted yield", f"{prediction:.1f} t/ha", f"{prediction - average:+.1f} t/ha vs average")
             # ================================================================
-
+            c1.metric("Predicted yield", f"{prediction:.1f} t/ha", f"{prediction - average:+.1f} t/ha vs average")
 
             # ================================================================
             # TODO 6: Show the expected TOTAL harvest of this farm in tonnes.
             # Total harvest = predicted yield (t/ha) x farm size (ha) = prediction * inputs["farm_size_ha"]
             # 💡 Hint: c2.metric("Expected harvest for this farm", f"{prediction * inputs['farm_size_ha']:.1f} tonnes")
             # ================================================================
-
+            c2.metric("Expected harvest for this farm", f"{prediction * inputs['farm_size_ha']:.1f} tonnes")
 
             c3.metric("Typical error (test MAE)", f"± {card['test_metrics']['MAE']:.1f} t/ha")
 
@@ -180,7 +181,7 @@ with tab_explore:
     # TODO 7: Let the user choose which column to compare, using a dropdown.
     # 💡 Hint: delete the # at the start of the next line
     # ========================================================================
-    # group_col = st.selectbox("Compare average yield by", card["categorical_features"], format_func=nice)
+    group_col = st.selectbox("Compare average yield by", card["categorical_features"], format_func=nice)
 
     if group_col is None:
         st.info("👋 Complete **TODO 7** in `app/streamlit_app.py` to show the chart.")
@@ -209,7 +210,9 @@ with tab_about:
     #   c2.metric("MAE", f"{m['MAE']:.2f} t/ha")
     #   c3.metric("RMSE", f"{m['RMSE']:.2f} t/ha")
     # ========================================================================
-
+    c1.metric("R² (test set)", f"{m['R2']:.2f}")
+    c2.metric("MAE", f"{m['MAE']:.2f} t/ha")
+    c3.metric("RMSE", f"{m['RMSE']:.2f} t/ha")
 
     st.write(f"**Model:** {card['model']} · **Trained on:** {card['n_training_rows']} farms · "
              f"**Trained at:** {card['trained_at']} · scikit-learn {card['scikit_learn']}")
@@ -226,3 +229,19 @@ with tab_about:
 #    and a table of the mean yield per LGA from `data`, sorted from highest to lowest."
 # Read the code it suggests BEFORE pasting it in. Do you understand every line?
 # ============================================================================
+with tab_lga:
+    st.subheader("Mean yield by LGA")
+    lga_summary = (
+        data.groupby("lga")[TARGET]
+        .mean()
+        .sort_values(ascending=False)
+        .rename("Mean yield (t/ha)")
+        .rename_axis("LGA")
+    )
+    st.bar_chart(
+        lga_summary,
+        horizontal=True,
+        x_label="Mean yield (t/ha)",
+        y_label="LGA",
+    )
+    st.dataframe(lga_summary.to_frame(), width="stretch")
