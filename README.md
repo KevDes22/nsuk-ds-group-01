@@ -20,7 +20,7 @@
 | Ikyernum Victor | @vik_daguru | Statistics lead | Parts 4–5 |
 |Sangogade Oyinkansola Esther | @oyinjeje | Machine-learning lead | Part 6 |
 | Benjamin Zekpo | @zekpoJNR | App lead | Parts 8–9 |
-| Jemimah Agbinone| @JemimahJames | App lead (Parts 8–9) | 
+| Jemimah Agbinone| @JemimahJames | App lead |  Parts 8–9 | 
 | Jennifer Imogie | @Jennifer-Imogie | Team Member | Parts 8–9 |
 
 
